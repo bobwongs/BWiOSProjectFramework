@@ -1,0 +1,17 @@
+platform :ios, '7.0'
+
+target 'BWiOSProjectFramework' do
+
+  pod 'Masonry'
+
+  target 'BWiOSProjectFrameworkTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'BWiOSProjectFrameworkUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
