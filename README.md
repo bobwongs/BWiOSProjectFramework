@@ -1,6 +1,6 @@
 #BWProjectFramework
 
-iOS Xcode Project Framework
+iOS Xcode Project Architecture
 
 ##Content  
 * Xcode项目架构
