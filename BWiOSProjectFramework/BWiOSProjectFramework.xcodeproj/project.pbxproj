@@ -15,7 +15,6 @@
 		B46076DB1DF01DD200C8472F /* BWiOSProjectFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B46076DA1DF01DD200C8472F /* BWiOSProjectFrameworkTests.m */; };
 		B46076E61DF01DD200C8472F /* BWiOSProjectFrameworkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B46076E51DF01DD200C8472F /* BWiOSProjectFrameworkUITests.m */; };
 		B46077411DF01F8000C8472F /* BWHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B46077401DF01F8000C8472F /* BWHomeViewController.m */; };
-		B46077451DF0206F00C8472F /* Document in Resources */ = {isa = PBXBuildFile; fileRef = B46077441DF0206F00C8472F /* Document */; };
 		B46077481DF0208500C8472F /* BWGlobal.m in Sources */ = {isa = PBXBuildFile; fileRef = B46077471DF0208500C8472F /* BWGlobal.m */; };
 		B460774B1DF0209900C8472F /* NSString+BWExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B460774A1DF0209900C8472F /* NSString+BWExtension.m */; };
 		B460774E1DF0215F00C8472F /* BWString.m in Sources */ = {isa = PBXBuildFile; fileRef = B460774D1DF0215F00C8472F /* BWString.m */; };
@@ -479,7 +478,6 @@
 				B460775F1DF0229200C8472F /* Image in Resources */,
 				B460775D1DF0228300C8472F /* Library in Resources */,
 				B46076D01DF01DD200C8472F /* LaunchScreen.storyboard in Resources */,
-				B46077451DF0206F00C8472F /* Document in Resources */,
 				B46076CD1DF01DD200C8472F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
