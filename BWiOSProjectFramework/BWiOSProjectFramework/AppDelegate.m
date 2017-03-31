@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "BWHomeVC.h"
+#import "BWHomeViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,7 +17,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    BWHomeVC *vcHome = [[BWHomeVC alloc] init];
+    BWHomeViewController *vcHome = [[BWHomeViewController alloc] init];
     UINavigationController *nvgtVCHome = [[UINavigationController alloc] initWithRootViewController:vcHome];
     
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];

@@ -7,6 +7,7 @@
 //
 
 #import "BWNetworkKit.h"
+#import "BWNetworkConfigure.h"
 
 @implementation BWNetworkKit
 

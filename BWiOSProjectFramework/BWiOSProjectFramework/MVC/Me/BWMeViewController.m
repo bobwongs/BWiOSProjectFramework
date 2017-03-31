@@ -1,18 +1,18 @@
 //
-//  BWHomeVC.m
+//  BWMeViewController.m
 //  BWiOSProjectFramework
 //
-//  Created by BobWong on 16/12/1.
-//  Copyright © 2016年 BobWongStudio. All rights reserved.
+//  Created by BobWong on 2017/3/31.
+//  Copyright © 2017年 BobWongStudio. All rights reserved.
 //
 
-#import "BWHomeVC.h"
+#import "BWMeViewController.h"
 
-@interface BWHomeVC ()
+@interface BWMeViewController ()
 
 @end
 
-@implementation BWHomeVC
+@implementation BWMeViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

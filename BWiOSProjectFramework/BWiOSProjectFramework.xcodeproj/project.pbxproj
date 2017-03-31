@@ -14,8 +14,7 @@
 		B46076D01DF01DD200C8472F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B46076CE1DF01DD200C8472F /* LaunchScreen.storyboard */; };
 		B46076DB1DF01DD200C8472F /* BWiOSProjectFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B46076DA1DF01DD200C8472F /* BWiOSProjectFrameworkTests.m */; };
 		B46076E61DF01DD200C8472F /* BWiOSProjectFrameworkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B46076E51DF01DD200C8472F /* BWiOSProjectFrameworkUITests.m */; };
-		B460773E1DF01F6B00C8472F /* BWBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B460773D1DF01F6B00C8472F /* BWBaseViewController.m */; };
-		B46077411DF01F8000C8472F /* BWHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B46077401DF01F8000C8472F /* BWHomeVC.m */; };
+		B46077411DF01F8000C8472F /* BWHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B46077401DF01F8000C8472F /* BWHomeViewController.m */; };
 		B46077451DF0206F00C8472F /* Document in Resources */ = {isa = PBXBuildFile; fileRef = B46077441DF0206F00C8472F /* Document */; };
 		B46077481DF0208500C8472F /* BWGlobal.m in Sources */ = {isa = PBXBuildFile; fileRef = B46077471DF0208500C8472F /* BWGlobal.m */; };
 		B460774B1DF0209900C8472F /* NSString+BWExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B460774A1DF0209900C8472F /* NSString+BWExtension.m */; };
@@ -26,6 +25,8 @@
 		B460775A1DF0225700C8472F /* BWNetworkKit.m in Sources */ = {isa = PBXBuildFile; fileRef = B46077591DF0225700C8472F /* BWNetworkKit.m */; };
 		B460775D1DF0228300C8472F /* Library in Resources */ = {isa = PBXBuildFile; fileRef = B460775C1DF0228300C8472F /* Library */; };
 		B460775F1DF0229200C8472F /* Image in Resources */ = {isa = PBXBuildFile; fileRef = B460775E1DF0229200C8472F /* Image */; };
+		B492E9E41E8E389D00398BAF /* BWBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B492E9E21E8E389D00398BAF /* BWBaseViewController.m */; };
+		B492E9E71E8E394C00398BAF /* BWMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B492E9E61E8E394C00398BAF /* BWMeViewController.m */; };
 		D8ED1C30D3F5A727BFB61E75 /* libPods-BWiOSProjectFrameworkUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FB40CC4D1C22C504AF8BCC9 /* libPods-BWiOSProjectFrameworkUITests.a */; };
 		F928D8B855107EF5A06A5890 /* libPods-BWiOSProjectFrameworkTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FB2D46CD1AA5B0DA61B51F28 /* libPods-BWiOSProjectFrameworkTests.a */; };
 /* End PBXBuildFile section */
@@ -68,10 +69,8 @@
 		B46076E11DF01DD200C8472F /* BWiOSProjectFrameworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BWiOSProjectFrameworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B46076E51DF01DD200C8472F /* BWiOSProjectFrameworkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWiOSProjectFrameworkUITests.m; sourceTree = "<group>"; };
 		B46076E71DF01DD200C8472F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B460773C1DF01F6B00C8472F /* BWBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWBaseViewController.h; sourceTree = "<group>"; };
-		B460773D1DF01F6B00C8472F /* BWBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWBaseViewController.m; sourceTree = "<group>"; };
-		B460773F1DF01F8000C8472F /* BWHomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWHomeVC.h; sourceTree = "<group>"; };
-		B46077401DF01F8000C8472F /* BWHomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWHomeVC.m; sourceTree = "<group>"; };
+		B460773F1DF01F8000C8472F /* BWHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWHomeViewController.h; sourceTree = "<group>"; };
+		B46077401DF01F8000C8472F /* BWHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWHomeViewController.m; sourceTree = "<group>"; };
 		B46077421DF01F9000C8472F /* BWiOSProjectFramework.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWiOSProjectFramework.pch; sourceTree = "<group>"; };
 		B46077441DF0206F00C8472F /* Document */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Document; sourceTree = "<group>"; };
 		B46077461DF0208500C8472F /* BWGlobal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWGlobal.h; sourceTree = "<group>"; };
@@ -88,10 +87,15 @@
 		B46077561DF0223400C8472F /* BWCustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWCustomView.m; sourceTree = "<group>"; };
 		B46077581DF0225700C8472F /* BWNetworkKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWNetworkKit.h; sourceTree = "<group>"; };
 		B46077591DF0225700C8472F /* BWNetworkKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWNetworkKit.m; sourceTree = "<group>"; };
-		B460775B1DF0226400C8472F /* BWNetworkConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWNetworkConfig.h; sourceTree = "<group>"; };
+		B460775B1DF0226400C8472F /* BWNetworkConfigure.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWNetworkConfigure.h; sourceTree = "<group>"; };
 		B460775C1DF0228300C8472F /* Library */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Library; sourceTree = "<group>"; };
 		B460775E1DF0229200C8472F /* Image */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Image; sourceTree = "<group>"; };
-		B46077601DF0237A00C8472F /* BWMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWMacro.h; sourceTree = "<group>"; };
+		B46077601DF0237A00C8472F /* BWMacroDefinition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWMacroDefinition.h; sourceTree = "<group>"; };
+		B492E9E11E8E389D00398BAF /* BWBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWBaseViewController.h; sourceTree = "<group>"; };
+		B492E9E21E8E389D00398BAF /* BWBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWBaseViewController.m; sourceTree = "<group>"; };
+		B492E9E51E8E394C00398BAF /* BWMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWMeViewController.h; sourceTree = "<group>"; };
+		B492E9E61E8E394C00398BAF /* BWMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWMeViewController.m; sourceTree = "<group>"; };
+		B492E9E81E8E3AC000398BAF /* BWGlobalConfigure.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWGlobalConfigure.h; sourceTree = "<group>"; };
 		E638728DEB80F6C40663ECA1 /* Pods-BWiOSProjectFrameworkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWiOSProjectFrameworkTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BWiOSProjectFrameworkTests/Pods-BWiOSProjectFrameworkTests.release.xcconfig"; sourceTree = "<group>"; };
 		FB2D46CD1AA5B0DA61B51F28 /* libPods-BWiOSProjectFrameworkTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BWiOSProjectFrameworkTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -276,7 +280,8 @@
 		B46077341DF01F4500C8472F /* Global */ = {
 			isa = PBXGroup;
 			children = (
-				B46077601DF0237A00C8472F /* BWMacro.h */,
+				B46077601DF0237A00C8472F /* BWMacroDefinition.h */,
+				B492E9E81E8E3AC000398BAF /* BWGlobalConfigure.h */,
 				B46077461DF0208500C8472F /* BWGlobal.h */,
 				B46077471DF0208500C8472F /* BWGlobal.m */,
 			);
@@ -294,26 +299,18 @@
 		B46077361DF01F4500C8472F /* MVC */ = {
 			isa = PBXGroup;
 			children = (
-				B46077371DF01F4500C8472F /* BaseVC */,
+				B492E9E01E8E389D00398BAF /* Base */,
 				B46077381DF01F4500C8472F /* Home */,
+				B492E9E31E8E389D00398BAF /* Me */,
 			);
 			path = MVC;
-			sourceTree = "<group>";
-		};
-		B46077371DF01F4500C8472F /* BaseVC */ = {
-			isa = PBXGroup;
-			children = (
-				B460773C1DF01F6B00C8472F /* BWBaseViewController.h */,
-				B460773D1DF01F6B00C8472F /* BWBaseViewController.m */,
-			);
-			path = BaseVC;
 			sourceTree = "<group>";
 		};
 		B46077381DF01F4500C8472F /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				B460773F1DF01F8000C8472F /* BWHomeVC.h */,
-				B46077401DF01F8000C8472F /* BWHomeVC.m */,
+				B460773F1DF01F8000C8472F /* BWHomeViewController.h */,
+				B46077401DF01F8000C8472F /* BWHomeViewController.m */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -321,7 +318,7 @@
 		B46077391DF01F4500C8472F /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				B460775B1DF0226400C8472F /* BWNetworkConfig.h */,
+				B460775B1DF0226400C8472F /* BWNetworkConfigure.h */,
 				B46077581DF0225700C8472F /* BWNetworkKit.h */,
 				B46077591DF0225700C8472F /* BWNetworkKit.m */,
 			);
@@ -342,6 +339,24 @@
 				B460775E1DF0229200C8472F /* Image */,
 			);
 			path = Image;
+			sourceTree = "<group>";
+		};
+		B492E9E01E8E389D00398BAF /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				B492E9E11E8E389D00398BAF /* BWBaseViewController.h */,
+				B492E9E21E8E389D00398BAF /* BWBaseViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		B492E9E31E8E389D00398BAF /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				B492E9E51E8E394C00398BAF /* BWMeViewController.h */,
+				B492E9E61E8E394C00398BAF /* BWMeViewController.m */,
+			);
+			path = Me;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -628,17 +643,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B46077411DF01F8000C8472F /* BWHomeVC.m in Sources */,
+				B46077411DF01F8000C8472F /* BWHomeViewController.m in Sources */,
 				B46076C51DF01DD200C8472F /* AppDelegate.m in Sources */,
 				B46077541DF0222300C8472F /* BWUtility.m in Sources */,
+				B492E9E41E8E389D00398BAF /* BWBaseViewController.m in Sources */,
 				B46076C21DF01DD200C8472F /* main.m in Sources */,
 				B46077481DF0208500C8472F /* BWGlobal.m in Sources */,
 				B460774B1DF0209900C8472F /* NSString+BWExtension.m in Sources */,
 				B46077571DF0223400C8472F /* BWCustomView.m in Sources */,
 				B460774E1DF0215F00C8472F /* BWString.m in Sources */,
+				B492E9E71E8E394C00398BAF /* BWMeViewController.m in Sources */,
 				B46077511DF0220800C8472F /* BWHudUtil.m in Sources */,
 				B460775A1DF0225700C8472F /* BWNetworkKit.m in Sources */,
-				B460773E1DF01F6B00C8472F /* BWBaseViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -874,6 +890,7 @@
 				B46076EC1DF01DD200C8472F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B46076ED1DF01DD200C8472F /* Build configuration list for PBXNativeTarget "BWiOSProjectFrameworkTests" */ = {
 			isa = XCConfigurationList;
@@ -882,6 +899,7 @@
 				B46076EF1DF01DD200C8472F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B46076F01DF01DD200C8472F /* Build configuration list for PBXNativeTarget "BWiOSProjectFrameworkUITests" */ = {
 			isa = XCConfigurationList;
@@ -890,6 +908,7 @@
 				B46076F21DF01DD200C8472F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
