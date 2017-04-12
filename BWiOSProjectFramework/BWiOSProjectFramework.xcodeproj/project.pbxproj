@@ -22,8 +22,6 @@
 		B46077541DF0222300C8472F /* BWUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = B46077531DF0222300C8472F /* BWUtility.m */; };
 		B46077571DF0223400C8472F /* BWCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = B46077561DF0223400C8472F /* BWCustomView.m */; };
 		B460775A1DF0225700C8472F /* BWNetworkKit.m in Sources */ = {isa = PBXBuildFile; fileRef = B46077591DF0225700C8472F /* BWNetworkKit.m */; };
-		B460775D1DF0228300C8472F /* Library in Resources */ = {isa = PBXBuildFile; fileRef = B460775C1DF0228300C8472F /* Library */; };
-		B460775F1DF0229200C8472F /* Image in Resources */ = {isa = PBXBuildFile; fileRef = B460775E1DF0229200C8472F /* Image */; };
 		B492E9E41E8E389D00398BAF /* BWBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B492E9E21E8E389D00398BAF /* BWBaseViewController.m */; };
 		B492E9E71E8E394C00398BAF /* BWMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B492E9E61E8E394C00398BAF /* BWMeViewController.m */; };
 		D8ED1C30D3F5A727BFB61E75 /* libPods-BWiOSProjectFrameworkUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FB40CC4D1C22C504AF8BCC9 /* libPods-BWiOSProjectFrameworkUITests.a */; };
@@ -90,6 +88,7 @@
 		B460775C1DF0228300C8472F /* Library */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Library; sourceTree = "<group>"; };
 		B460775E1DF0229200C8472F /* Image */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Image; sourceTree = "<group>"; };
 		B46077601DF0237A00C8472F /* BWMacroDefinition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWMacroDefinition.h; sourceTree = "<group>"; };
+		B489ACB21E9E091700F7C37E /* BWiOSProjectFramework.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BWiOSProjectFramework.entitlements; sourceTree = "<group>"; };
 		B492E9E11E8E389D00398BAF /* BWBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWBaseViewController.h; sourceTree = "<group>"; };
 		B492E9E21E8E389D00398BAF /* BWBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWBaseViewController.m; sourceTree = "<group>"; };
 		B492E9E51E8E394C00398BAF /* BWMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWMeViewController.h; sourceTree = "<group>"; };
@@ -175,6 +174,7 @@
 		B46076BF1DF01DD200C8472F /* BWiOSProjectFramework */ = {
 			isa = PBXGroup;
 			children = (
+				B489ACB21E9E091700F7C37E /* BWiOSProjectFramework.entitlements */,
 				B46076C31DF01DD200C8472F /* AppDelegate.h */,
 				B46076C41DF01DD200C8472F /* AppDelegate.m */,
 				B46077331DF01F4500C8472F /* Document */,
@@ -435,6 +435,11 @@
 					B46076BC1DF01DD200C8472F = {
 						CreatedOnToolsVersion = 8.0;
 						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					B46076D51DF01DD200C8472F = {
 						CreatedOnToolsVersion = 8.0;
@@ -475,8 +480,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B460775F1DF0229200C8472F /* Image in Resources */,
-				B460775D1DF0228300C8472F /* Library in Resources */,
 				B46076D01DF01DD200C8472F /* LaunchScreen.storyboard in Resources */,
 				B46076CD1DF01DD200C8472F /* Assets.xcassets in Resources */,
 			);
@@ -792,6 +795,7 @@
 			baseConfigurationReference = 8A368578483F7606B25A6AAF /* Pods-BWiOSProjectFramework.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = BWiOSProjectFramework/BWiOSProjectFramework.entitlements;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = BWiOSProjectFramework/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
@@ -806,10 +810,12 @@
 			baseConfigurationReference = 061D7E17770FC722F5572C97 /* Pods-BWiOSProjectFramework.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = BWiOSProjectFramework/BWiOSProjectFramework.entitlements;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = BWiOSProjectFramework/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.bws.BWiOSProjectFramework;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
